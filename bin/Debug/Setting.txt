@@ -1,0 +1,5 @@
+PathToProgramOneFirst::C:\Users\todor\Desktop\Origin Folder\program-one-first-estel-script\bin\Debug\program-one-first-estel-script.exe
+
+PathToProgramTwoSecond::xx
+
+OutputPathProgramOneFirst::C:\Users\todor\source\repos\program-three-third-estel-script\bin\Debug\out-1
