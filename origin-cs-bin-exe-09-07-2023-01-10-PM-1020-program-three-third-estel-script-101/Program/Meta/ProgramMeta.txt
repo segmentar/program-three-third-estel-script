@@ -21,4 +21,6 @@ sequence Program : no unused namespace(s)
 
 	o /object\OBJECT/ProgramDataObject.cs\
 
+	o /module\MODULE/ProgramModule.cs\
+
 end sequence

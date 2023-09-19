@@ -6,7 +6,7 @@ namespace Core
 
     internal partial class Program
     {
-        internal static String[] SafeArray(params Object[] objectArray)
+        internal static String[] SafeArray(Boolean trimWhitespace, params Object[] objectArray)
         {
             String[] arrayResult = default;
 
@@ -20,7 +20,7 @@ namespace Core
             {
                 String stringEntry;
 
-                stringEntry = SafeString(objectItem);
+                stringEntry = SafeString(objectItem, trimWhitespace);
 
                 stringArray[indexer] = stringEntry;
 

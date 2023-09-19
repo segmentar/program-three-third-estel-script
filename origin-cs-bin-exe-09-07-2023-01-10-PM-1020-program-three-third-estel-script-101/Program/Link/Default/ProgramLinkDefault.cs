@@ -4,45 +4,92 @@ namespace Core
 {
     using System;
 
-    using System.IO;
+    using System.Text;
 
-    using System.Reflection;
-
-    internal partial class ProgramDefaultPageOneFirst
+    internal static class ProgramArchitectureDefaultPageOneFirst
     {
-        internal static ConsoleColor BackgroundColor;
+        internal static String FilesystemNotationDirectoryOriginDefault;
 
-        internal static ConsoleColor ForegroundColor;
+        internal static String FilesystemNotationDirectoryBackDefault;
 
         internal static String PathToProgramOneFirstDefault;
 
         internal static String PathToProgramTwoSecondDefault;
 
+        internal static String InputPathProgramOneFirstDefault;
+
+        internal static String InputPathProgramTwoSecondDefault;
+
         internal static String OutputPathProgramOneFirstDefault;
 
         internal static String OutputPathProgramTwoSecondDefault;
 
+        internal static StringBuilder AutoCommandStringBuilderDefault;
+
+        static ProgramArchitectureDefaultPageOneFirst()
+        {
+            FilesystemNotationDirectoryOriginDefault = "...";
+
+            FilesystemNotationDirectoryBackDefault = "..";
+
+            PathToProgramOneFirstDefault = default(String);
+
+            PathToProgramTwoSecondDefault = default(String);
+
+            InputPathProgramOneFirstDefault = default(String);
+
+            InputPathProgramTwoSecondDefault = default(String);
+
+            OutputPathProgramOneFirstDefault = default(String);
+
+            OutputPathProgramTwoSecondDefault = default(String);
+
+            AutoCommandStringBuilderDefault = new StringBuilder('\t' + "Auto Command" + ':' + '\n');
+
+            return;
+        }
+    }
+}
+
+namespace Core
+{
+    using System;
+
+    using System.IO;
+
+    using System.Reflection;
+
+    internal static class ProgramImmutableDefaultPageOneFirst
+    {
+        internal static String TitleDefault;
+
+        internal static ConsoleColor BackgroundColorDefault;
+
+        internal static ConsoleColor ForegroundColorDefault;
+
         internal static String ProgramNameDefault;
+
+        internal static String SettingNameDefault;
+
+        internal static String SettingExtensionDefault;
 
         internal static String WorkingDirectoryNameDefault;
 
         internal static String WorkingDirectoryIdentityDefault;
 
-        static ProgramDefaultPageOneFirst()
+        static ProgramImmutableDefaultPageOneFirst()
         {
-            BackgroundColor = ConsoleColor.Blue;
+            TitleDefault = Assembly.GetEntryAssembly().GetName().Name;
 
-            ForegroundColor = ConsoleColor.Yellow;
+            BackgroundColorDefault = ConsoleColor.Blue;
 
-            PathToProgramOneFirstDefault = String.Empty;
-
-            PathToProgramTwoSecondDefault = String.Empty;
-
-            OutputPathProgramOneFirstDefault = String.Empty;
-
-            OutputPathProgramTwoSecondDefault = String.Empty;
+            ForegroundColorDefault = ConsoleColor.Yellow;
 
             ProgramNameDefault = Assembly.GetEntryAssembly().GetName().Name;
+
+            SettingNameDefault = "Setting";
+
+            SettingExtensionDefault = "txt";
 
             WorkingDirectoryNameDefault = "Working Directory";
 

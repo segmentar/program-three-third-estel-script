@@ -1,5 +1,23 @@
-PathToProgramOneFirst::C:\Users\todor\Desktop\Origin Folder\program-one-first-estel-script\bin\Debug\program-one-first-estel-script.exe
+**
 
-PathToProgramTwoSecond::xx
+PathProgramOneFirst**...\..\Ware\OneFirst\program-one-first-estel-script.exe
 
-OutputPathProgramOneFirst::C:\Users\todor\source\repos\program-three-third-estel-script\bin\Debug\out-1
+PathProgramTwoSecond**...\..\Ware\TwoSecond\program-two-second-estel-script.exe
+
+
+
+InputPathProgramOneFirst**...\In\00
+
+InputPathProgramTwoSecond**...\In\01
+
+
+
+OutputPathProgramOneFirst**...\Out\01
+
+OutputPathProgramTwoSecond**...\Out\02
+
+
+
+add-auto-command**call # ; @ :: # #PathProgramOneFirst @ # InputDirectory::#InputPathProgramOneFirst # OutputDirectory::#OutputPathProgramOneFirst display-argument linger
+
+add-auto-command**call

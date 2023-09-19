@@ -10,9 +10,9 @@ namespace Core
     {
         internal void SetupSetting()
         {
-            var path_FILE_filename = Path.Combine(Directory.GetCurrentDirectory(), "Setting");
+            var path_FILE_filename = Path.Combine(Directory.GetCurrentDirectory(), ImmutablePageOneFirst.SettingName);
 
-            var path_FILE_filename_with_extension = Path.ChangeExtension(path_FILE_filename, "txt");
+            var path_FILE_filename_with_extension = Path.ChangeExtension(path_FILE_filename, ImmutablePageOneFirst.SettingExtension);
 
             if (File.Exists(path_FILE_filename_with_extension) is false)
             {
@@ -23,31 +23,67 @@ namespace Core
 
             var text = File.ReadAllText(path_FILE_filename_with_extension);
 
-            foreach (Tuple<String, String> tuple in DictionaryFromText(text))
+            var boolean_safe__MORE_OR_EQUAL_THAN = (text.Length >= 2);
+
+            Boolean isLengthCheck, shouldReturn;
+
+            isLengthCheck = boolean_safe__MORE_OR_EQUAL_THAN is true;
+
+            shouldReturn = isLengthCheck is false;
+
+            if (shouldReturn is true)
             {
-                String stringItem;
+                return;
+            }
+            else
+                "false".ToString();
 
-                stringItem = tuple.Item2;
+            var first = text[0];
 
-                switch (tuple.Item1)
+            var second = text[1];
+
+            Char left, right;
+
+            left = first;
+
+            right = second;
+
+            foreach (Tuple<String, String> tuple in ProgramSettingTupleContainerSurface<Tuple<String, String>>(text, left, right))
+            {
+                String name, value;
+
+                name = tuple.Item1;
+
+                value = tuple.Item2;
+
+                switch (name)
                 {
-                    case nameof(ArchitecturePageOneFirst.PathToProgramOneFirst):
-                        ArchitecturePageOneFirst.PathToProgramOneFirst = stringItem;
+                    case nameof(ArchitecturePageOneFirst.PathProgramOneFirst):
+                        ArchitecturePageOneFirst.PathProgramOneFirst = value;
                         break;
 
-                    case nameof(ArchitecturePageOneFirst.PathToProgramTwoSecond):
-                        ArchitecturePageOneFirst.PathToProgramTwoSecond = stringItem;
+                    case nameof(ArchitecturePageOneFirst.PathProgramTwoSecond):
+                        ArchitecturePageOneFirst.PathProgramTwoSecond = value;
+                        break;
+
+                    case nameof(ArchitecturePageOneFirst.InputPathProgramOneFirst):
+                        ArchitecturePageOneFirst.InputPathProgramOneFirst = value;
+                        break;
+
+                    case nameof(ArchitecturePageOneFirst.InputPathProgramTwoSecond):
+                        ArchitecturePageOneFirst.InputPathProgramTwoSecond = value;
                         break;
 
                     case nameof(ArchitecturePageOneFirst.OutputPathProgramOneFirst):
-                        ArchitecturePageOneFirst.OutputPathProgramOneFirst = stringItem;
+                        ArchitecturePageOneFirst.OutputPathProgramOneFirst = value;
                         break;
 
                     case nameof(ArchitecturePageOneFirst.OutputPathProgramTwoSecond):
-                        ArchitecturePageOneFirst.OutputPathProgramTwoSecond = stringItem;
+                        ArchitecturePageOneFirst.OutputPathProgramTwoSecond = value;
                         break;
 
                     default:
+                        ArchitecturePageOneFirst.AutoCommandStringBuilder.Insert(ArchitecturePageOneFirst.AutoCommandStringBuilder.Length, '\t' + value + '\n');
                         break;
                 }
 

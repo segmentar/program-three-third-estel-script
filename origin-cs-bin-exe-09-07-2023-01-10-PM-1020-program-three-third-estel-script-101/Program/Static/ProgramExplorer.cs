@@ -10,11 +10,11 @@ namespace Core
     {
         internal static void Explorer(String path, Int32 ordinal)
         {
-            var boolean_BIGGER_OR_EQUAL_THAN = (ordinal >= 5);
+            var boolean_BIGGER_THAN = (ordinal > 5);
 
             Boolean shouldStop;
 
-            shouldStop = boolean_BIGGER_OR_EQUAL_THAN is true;
+            shouldStop = boolean_BIGGER_THAN is true;
 
             if (shouldStop is true)
             {

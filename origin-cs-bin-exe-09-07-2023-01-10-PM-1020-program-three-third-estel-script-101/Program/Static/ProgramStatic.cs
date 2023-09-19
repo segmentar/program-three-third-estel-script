@@ -4,8 +4,6 @@ namespace Core
 {
 	using System;
 
-    using System.IO;
-
     internal partial class Program
 	{
 		internal static String[] ArgumentArray;
@@ -30,11 +28,7 @@ namespace Core
 
 		internal static void Manual()
 		{
-			Free(ProgramFolderSetSurface(Directory.GetCurrentDirectory()));
-            
-			ProgramModule programModule = ProgramModule.ProgramModuleDefault();
-
-			Explorer(programModule.First.CurrentDirectory, 1);
+			ProgramModule programModule = ProgramModule.ProgramModuleAction();
 
 			return;
 		}

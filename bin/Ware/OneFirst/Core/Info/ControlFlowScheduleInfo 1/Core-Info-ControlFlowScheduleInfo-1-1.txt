@@ -1,0 +1,21 @@
+ControlFlowSchedule :: {
+.compress
+	~01 IsDebug: False
+.compress-raw
+	~02 Control: . . . . . <2>
+	~03 Flow: . . . . . <1>
+	~04 Schedule: . . . . . <1>
+}
+
+~10 Control:
+.File
+C:\Users\todor\OneDrive\Desktop\Origin Folder\program-three-third-estel-script\bin\Ware\OneFirst\Core\Debug\ProgramDebug 1\Core-Debug-ProgramDebug-1-1.txt
+.Content <safe>
+Program :: ProgramSequence { .debug  ~01 debug: True }
+
+~20 Flow:
+.Position
+0
+
+~30 Schedule:
+.FormArrayList <0>

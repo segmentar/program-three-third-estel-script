@@ -6,3 +6,19 @@ C:\Users\todor\source\repos\program-three-third-estel-script\obj\Debug\program-t
 C:\Users\todor\source\repos\program-three-third-estel-script\obj\Debug\program-three-third-estel-script.csproj.CoreCompileInputs.cache
 C:\Users\todor\source\repos\program-three-third-estel-script\obj\Debug\program-three-third-estel-script.exe
 C:\Users\todor\source\repos\program-three-third-estel-script\obj\Debug\program-three-third-estel-script.pdb
+C:\Users\todor\Desktop\Origin Folder\program-three-third-estel-script\bin\Debug\program-three-third-estel-script.exe.config
+C:\Users\todor\Desktop\Origin Folder\program-three-third-estel-script\bin\Debug\program-three-third-estel-script.exe
+C:\Users\todor\Desktop\Origin Folder\program-three-third-estel-script\bin\Debug\program-three-third-estel-script.pdb
+C:\Users\todor\Desktop\Origin Folder\program-three-third-estel-script\obj\Debug\program-three-third-estel-script.csproj.AssemblyReference.cache
+C:\Users\todor\Desktop\Origin Folder\program-three-third-estel-script\obj\Debug\program-three-third-estel-script.csproj.SuggestedBindingRedirects.cache
+C:\Users\todor\Desktop\Origin Folder\program-three-third-estel-script\obj\Debug\program-three-third-estel-script.csproj.CoreCompileInputs.cache
+C:\Users\todor\Desktop\Origin Folder\program-three-third-estel-script\obj\Debug\program-three-third-estel-script.exe
+C:\Users\todor\Desktop\Origin Folder\program-three-third-estel-script\obj\Debug\program-three-third-estel-script.pdb
+C:\Users\todor\OneDrive\Desktop\Origin Folder\program-three-third-estel-script\bin\Debug\program-three-third-estel-script.exe.config
+C:\Users\todor\OneDrive\Desktop\Origin Folder\program-three-third-estel-script\bin\Debug\program-three-third-estel-script.exe
+C:\Users\todor\OneDrive\Desktop\Origin Folder\program-three-third-estel-script\bin\Debug\program-three-third-estel-script.pdb
+C:\Users\todor\OneDrive\Desktop\Origin Folder\program-three-third-estel-script\obj\Debug\program-three-third-estel-script.csproj.AssemblyReference.cache
+C:\Users\todor\OneDrive\Desktop\Origin Folder\program-three-third-estel-script\obj\Debug\program-three-third-estel-script.csproj.SuggestedBindingRedirects.cache
+C:\Users\todor\OneDrive\Desktop\Origin Folder\program-three-third-estel-script\obj\Debug\program-three-third-estel-script.csproj.CoreCompileInputs.cache
+C:\Users\todor\OneDrive\Desktop\Origin Folder\program-three-third-estel-script\obj\Debug\program-three-third-estel-script.exe
+C:\Users\todor\OneDrive\Desktop\Origin Folder\program-three-third-estel-script\obj\Debug\program-three-third-estel-script.pdb

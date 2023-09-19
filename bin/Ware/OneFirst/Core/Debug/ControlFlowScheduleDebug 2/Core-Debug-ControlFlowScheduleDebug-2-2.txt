@@ -1,0 +1,9 @@
+ControlFlowSchedule :: ControlFlowScheduleSequence {
+.debug
+	~01 file: C:\Users\todor\OneDrive\Desktop\Origin Folder\program-three-third-estel-script\bin\Ware\OneFirst\Core\Debug\ProgramDebug 1\Core-Debug-ProgramDebug-1-1.txt
+	~02 content: Program :: ProgramSequence {
+.debug
+	~01 debug: True
+}
+	~03 debug: True
+}

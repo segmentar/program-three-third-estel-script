@@ -6,9 +6,11 @@ namespace Core
 
     internal partial class Program
     {
-        internal static String SafeString(Object objectItem)
+        internal static String SafeString(Object objectItem, Boolean trimWhitespace)
         {
             String stringResult = default;
+
+            var whitespace = Convert.ToChar(32);
 
             String stringitem;
 
@@ -35,8 +37,6 @@ namespace Core
                 else
                     "false".ToString();
 
-                var whitespace = Convert.ToChar(32);
-
                 characterArray[zeroth] = whitespace;
 
                 continue;
@@ -44,7 +44,14 @@ namespace Core
 
             String stringEntry;
 
-            stringEntry = new String(characterArray);
+            if (trimWhitespace)
+            {
+                stringEntry = new String(characterArray).Trim(whitespace);
+            }
+            else
+            {
+                stringEntry = new String(characterArray);
+            }
 
             stringResult = stringEntry;
 

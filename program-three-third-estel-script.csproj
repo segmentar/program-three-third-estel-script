@@ -46,9 +46,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Architecture\Architecture.cs" />
-    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Immutable\Immutable.cs" />
-    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Interop\01\Calf01.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Module\Action\ProgramModuleAction.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Forge\ForgeSpecialPath.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Set\EscapeJoin\Surface\ProgramSetEscapeJoinSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Set\EscapePortal\ProgramSetEscapePortal.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Set\EscapePortal\Surface\ProgramSetEscapePortalSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Set\EscapeShared\ProgramSetEscapeShared.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Set\EscapeShared\Surface\ProgramSetEscapeSharedSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Part\CallHandler\00\CallHandler.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Part\CallHandler\01\CallHandlerOneFirst.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Part\CallHandler\02\CallHandlerTwoSecond.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Part\CallHandler\03\CallHandlerThreeThird.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Part\CallHandler\04\CallHandlerFourFourth.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Part\CallHandler\05\CallHandlerFiveFifth.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Part\TwoHandler\00\DuplexHandler.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Studio\2D\Architecture\Architecture.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Studio\2D\Immutable\Immutable.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Studio\1D\Interop\01\Calf01.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Link\Code\ProgramLinkCode.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Link\Default\ProgramLinkDefault.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Module\Default\ProgramModuleDefault.cs" />
@@ -56,8 +70,8 @@
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Module\Function\01\One\ProgramModuleFunctionOne.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Module\Function\02\Second\ProgramModuleFunctionSecond.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Module\Function\02\Two\ProgramModuleFunctionTwo.cs" />
-    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Module\Function\03\Third\ProgramModuleFunctionThird.cs" />
-    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Module\Function\03\Three\ProgramModuleFunctionThree.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Module\Function\03-unused-and-the-ones-below-also\Third\ProgramModuleFunctionThird.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Module\Function\03-unused-and-the-ones-below-also\Three\ProgramModuleFunctionThree.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Module\Function\04\Fourth\ProgramModuleFunctionFourth.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Module\Function\04\Four\ProgramModuleFunctionFour.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Module\Function\05\Fifth\ProgramModuleFunctionFifth.cs" />
@@ -77,8 +91,10 @@
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Static\ProgramSafeArray.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Static\ProgramSafeString.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Static\ProgramStatic.cs" />
-    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Container\ProgramContainerArgumentEscape.cs" />
-    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Container\Surface\ProgramContainerArgumentEscapeSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Set\EscapeJoin\ProgramSetEscapeJoin.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Container\EscapeTuple\ProgramContainerEscapeTuple.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Container\EscapeTuple\Surface\ProgramContainerEscapeTupleSurface.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Container\SettingTuple\Surface\ProgramContainerSettingTupleSurface.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Forge\ForgeCurrentTuple.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Forge\ForgeObservableTuple.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Forge\ForgeWorkingDirectory.cs" />
@@ -100,7 +116,8 @@
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Set\Folder\Surface\ProgramSetFolderSurface.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Set\Line\ProgramSetLine.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Set\Line\Surface\ProgramSetLineSurface.cs" />
-    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Specialized\DictionaryFromText.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Program\Type\Container\SettingTuple\ProgramContainerSettingTuple.cs" />
+    <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Studio\2D\Specialized\GetAutoCommandStringBuilder.cs" />
     <Compile Include="origin-cs-bin-exe-09-07-2023-01-10-PM-1020-program-three-third-estel-script-101\Studio\4D\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

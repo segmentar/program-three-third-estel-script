@@ -10,7 +10,7 @@ namespace Core
         {
             String stringResult = default;
 
-            var path_NAME__DIRECTORY = $"{Immutable.ProgramName}-{Immutable.WorkingDirectoryName}-{Immutable.WorkingDirectoryIdentity}";
+            var path_NAME__DIRECTORY = $"{ImmutablePageOneFirst.ProgramName}-{ImmutablePageOneFirst.WorkingDirectoryName}-{ImmutablePageOneFirst.WorkingDirectoryIdentity}";
 
             var lower = path_NAME__DIRECTORY.ToLower();
 

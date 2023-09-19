@@ -22,7 +22,7 @@ namespace Core
 
                 left = 16;
 
-                top = 11;
+                top = 31;
 
                 size = (left * top);
 
@@ -76,16 +76,16 @@ namespace Core
                 }
                 else
                 {
-                    Console.BackgroundColor = ArchitecturePageOneFirst.BackgroundColor;
+                    Console.BackgroundColor = ImmutablePageOneFirst.BackgroundColor;
 
-                    Console.ForegroundColor = ArchitecturePageOneFirst.ForegroundColor;
+                    Console.ForegroundColor = ImmutablePageOneFirst.ForegroundColor;
+
+                    Console.CursorLeft = left;
+
+                    Console.CursorTop = top;
+
+                    Console.SetCursorPosition(Console.CursorLeft, Console.CursorTop);
                 }
-
-                Console.CursorLeft = left;
-
-                Console.CursorTop = top;
-
-                Console.SetCursorPosition(Console.CursorLeft, Console.CursorTop);
             }
 
             if (hide)
